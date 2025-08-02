@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+  color: #2f4d77;
+}
+
+.bg-primary {
+  background-color: #2f4d77;
+}
+
+.fill-primary {
+  fill: #2f4d77;
+}
+
+.text-primary {
+  color: #2f4d77;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.anchor {
+  position: relative;
+  top: -85px;
+  display: block;
+  visibility: hidden;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* .footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+} */
+
+.stem-preparation-anchor {
+  position: relative;
+  top: -75px;
+  display: block;
+  visibility: hidden;
+}
+
+.carousel__viewport {
+  width: 100%;
+}
+
+.router-link-active {
+  color: #fff;
+  background-color: #2f4d77;
+}
+
+.btn-primary {
+  background-color: #2f4d77 !important;
+  border: 1px solid #2f4d77 !important;
+  color: #fff !important;
+}
+
+.btn-secondary {
+  background-color: #f0fbfc !important;
+  border: 1px solid #f0fbfc !important;
+  color: #2f4d77 !important;
+}
+
+.btn-success {
+  background-color: #25d366 !important;
+  border: 1px solid #25d366 !important;
+  color: #fff !important;
+}
+
+.disable-focus:focus {
+  color: #fff !important;
+  background-color: #2f4d77 !important;
+}
+
+.hover-none {
+  background-color: #2f4d77 !important;
+}
+
+.whatsapp-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 70px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-button i {
+  margin-top: 10px;
+}
+
+/* margin */
+.-mt-ul {
+  margin-top: 5px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .whatsapp-button {
+    top: 15px;
+    right: 10px;
+  }
+
+  :root .v-data-table-column--fixed,
+  .v-data-table__th--sticky {
+    position: unset !important;
+  }
+}
+
+@media print {
+  .print-button {
+    display: none !important;
+  }
+}
+
+/* Style for the slide down and fade-out effect */
+.fade-out {
+  animation: slideOutDown 0.5s ease-out forwards;
+  /* Adjust duration as needed */
+}
+
+@keyframes slideOutDown {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    /* Start from original position */
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Move 20px downward while fading out */
+  }
+}
