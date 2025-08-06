@@ -18,7 +18,7 @@ onBeforeMount(() => {
         </div>
         <div>
           <h1 class="text-3xl font-bold text-[#303972]">Project Mentoring (6 months)</h1>
-          <p class="text-gray-600 mt-2">A course designed for <strong>high school students</strong> who want to create <strong>impressive, portfolio-ready projects</strong> in areas like <strong>Web</strong>, <strong>Mobile</strong>, <strong>AI</strong>, and <strong>IoT</strong>.
+          <p class="text-gray-600 mt-2">A <strong>compact and intensive program</strong> designed to help you grasp the <strong>fundamentals</strong> and real-world <strong>use cases</strong> of <strong>AI and other technologies</strong>.
             Ideal for those aiming to <strong>apply to international universities</strong> and stand out with a strong <strong>tech-based portfolio</strong> and <strong>personalized mentorship</strong>.</p>
         </div>
       </div>
@@ -47,16 +47,16 @@ onBeforeMount(() => {
         </div>
       </div>
 
-      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
         <div class="bg-white p-6 rounded-lg shadow-md">
           <h3 class="font-semibold text-xl mb-4 text-[#303972] flex items-center">
             <i class="fas fa-laptop-code text-[#4F46E5] mr-2"></i> Web Development
           </h3>
           <ul class="space-y-2 text-gray-600">
-            <li><span class="font-medium text-[#4F46E5]">WB101</span> - Web Dev I</li>
-            <li><span class="font-medium text-[#4F46E5]">WB102</span> - Web Dev II</li>
-            <li><span class="font-medium text-[#4F46E5]">WB103</span> - Web Dev III</li>
+            <li><span class="font-medium text-[#4F46E5]">WB101</span> - Web Development I</li>
+            <li><span class="font-medium text-[#4F46E5]">WB102</span> - Web Development II</li>
+            <li><span class="font-medium text-[#4F46E5]">WB103</span> - Web Development III</li>
           </ul>
         </div>
 
@@ -65,9 +65,9 @@ onBeforeMount(() => {
             <i class="fas fa-mobile-alt text-[#4F46E5] mr-2"></i> Mobile Development
           </h3>
           <ul class="space-y-2 text-gray-600">
-            <li><span class="font-medium text-[#4F46E5]">MD201</span> - Mobile Dev I</li>
-            <li><span class="font-medium text-[#4F46E5]">MD202</span> - Mobile Dev II</li>
-            <li><span class="font-medium text-[#4F46E5]">MD203</span> - Mobile Dev III</li>
+            <li><span class="font-medium text-[#4F46E5]">MD201</span> - Mobile Development I</li>
+            <li><span class="font-medium text-[#4F46E5]">MD202</span> - Mobile Development II</li>
+            <li><span class="font-medium text-[#4F46E5]">MD203</span> - Mobile Development III</li>
           </ul>
         </div>
 
@@ -76,9 +76,9 @@ onBeforeMount(() => {
             <i class="fas fa-robot text-[#4F46E5] mr-2"></i> AI Applications
           </h3>
           <ul class="space-y-2 text-gray-600">
-            <li><span class="font-medium text-[#4F46E5]">AI401</span> - AI Apps Development I</li>
-            <li><span class="font-medium text-[#4F46E5]">AI402</span> - AI Apps Development II</li>
-            <li><span class="font-medium text-[#4F46E5]">AI403</span> - AI Apps Development III</li>
+            <li><span class="font-medium text-[#4F46E5]">AI401</span> - AI Applications Development I</li>
+            <li><span class="font-medium text-[#4F46E5]">AI402</span> - AI Applications Development II</li>
+            <li><span class="font-medium text-[#4F46E5]">AI403</span> - AI Applications Development III</li>
           </ul>
         </div>
 
@@ -99,7 +99,7 @@ onBeforeMount(() => {
           <div class="py-1"><i class="fas fa-info-circle text-blue-500 mr-2"></i></div>
           <div>
             <p class="font-bold">Choose Your Project Focus:</p>
-            <p class="text-sm">Participants will select one project track (Web, Mobile, AI Apps, or IoT) to specialize in during the 6-month mentoring program.</p>
+            <p class="text-sm">Participants will select one project track (Web Development, Mobile Development, AI Applications, or Internet of Things) to specialize in during the 6-month mentoring program.</p>
           </div>
         </div>
       </div>

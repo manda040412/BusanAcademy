@@ -7,8 +7,8 @@
         </div>
         <div>
           <h1 class="text-3xl font-bold text-[#303972]">Bootcamp (2 days)</h1>
-          <p class="text-gray-600 mt-2">A <strong>compact and intensive program</strong> designed to help you grasp the <strong>fundamentals</strong> and real-world <strong>use cases</strong> of <strong>AI and other technologies</strong>.  
-    Each course can be <strong>completed in just 2 days</strong>, with specialized tracks such as <strong>Web Development</strong> and <strong>AI for Specific Roles</strong>.</p>
+          <p class="text-gray-600 mt-2">A <strong>compact and intensive program</strong> designed to help you grasp the <strong>fundamentals</strong> and real-world <strong>use cases</strong> of <strong>AI and other technologies</strong>.  
+            Each course can be <strong>completed in just 2 days</strong>, with specialized tracks such as <strong>Web Development</strong> and <strong>AI for Specific Roles</strong>.</p>
         </div>
       </div>
 
@@ -57,8 +57,8 @@
             <li><span class="font-medium text-[#4F46E5]">AI101S</span> - AI for Students</li>
             <li><span class="font-medium text-[#4F46E5]">AI101E</span> - AI for Educators</li>
             <li><span class="font-medium text-[#4F46E5]">AI101P</span> - AI for Professionals</li>
-            <li><span class="font-medium text-[#4F46E5]">AI201E</span> - GenAI for Educators</li>
-            <li><span class="font-medium text-[#4F46E5]">AI201P</span> - GenAI for Professionals</li>
+            <li><span class="font-medium text-[#4F46E5]">AI201E</span> - Generative AI for Educators</li>
+            <li><span class="font-medium text-[#4F46E5]">AI201P</span> - Generative AI for Professionals</li>
           </ul>
         </div>
       </div>
@@ -74,8 +74,8 @@
       </div>
 
       <div class="mt-8 text-center">
-        <a 
-          href="https://forms.gle/UeAhhd9Jq6eLcqiy9" 
+        <a
+          href="https://forms.gle/UeAhhd9Jq6eLcqiy9"
           target="_blank"
           class="inline-block bg-[#4F46E5] text-white px-8 py-3 rounded-lg hover:bg-[#4338CA] transition-colors"
         >

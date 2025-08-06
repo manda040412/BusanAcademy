@@ -368,25 +368,25 @@ onMounted(() => {
     </div>
 
     <div class="navbar-end hidden lg:flex space-x-4">
-      <router-link
+      <!-- <router-link
         v-if="!authStore.isLoggedIn"
         to="/login"
         class="btn btn-primary font-bold text-sm px-4 py-2"
         id="login"
       >
         Login
-      </router-link>
+      </router-link> -->
 
       <div class="flex items-center">
         <!-- Icon -->
-        <div class="flex items-center space-x-4">
+        <!-- <div class="flex items-center space-x-4">
           <div
             v-if="authStore.isLoggedIn && authStore.data?.role?.id !== 1"
             @click="router.push('/cart') && removeActiveClasses()"
             class="relative p-2 rounded-full cursor-pointer hover:bg-gray-200 hover:shadow-md transition duration-300"
-          >
+          > -->
             <!-- Badge -->
-            <span
+            <!-- <span
               v-if="cartStore.total_items > 0"
               class="absolute -top-1 -right-1 flex items-center justify-center h-5 w-5 bg-red-600 text-white text-xs font-bold rounded-full"
             >
@@ -400,31 +400,30 @@ onMounted(() => {
               />
             </span>
           </div>
-        </div>
+        </div> -->
 
         <!-- Divider -->
-        <div
+        <!-- <div
           class="h-6 w-px bg-gray-300 mx-4"
           v-if="authStore.isLoggedIn"
-        ></div>
+        ></div> -->
 
         <!-- Profile -->
-        <div
+        <!-- <div
           v-if="authStore.isLoggedIn"
           class="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-primary rounded-full cursor-pointer profile-button"
           @click="isDropdownOpen = true"
-        >
-          <span class="font-medium text-white profile-button">
-            {{
-              // Change this line:
-              authStore.data?.username // <-- ADDED ?. HERE
-                .split(" ")
-                .slice(0, 2)
-                .map((word) => word.charAt(0).toUpperCase())
-                .join("")
-            }}
-          </span>
-        </div>
+        > -->
+          <!-- <span class="font-medium text-white profile-button">
+            {{
+              (authStore.data?.username || '') // <-- CHANGE THIS LINE
+                .split(" ")
+                .slice(0, 2)
+                .map((word) => word.charAt(0).toUpperCase())
+                .join("")
+            }}
+          </span>
+        </div> -->
 
         <!-- Dropdown menu -->
         <div

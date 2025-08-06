@@ -6,7 +6,7 @@
           <i class="fas fa-chalkboard-teacher text-white text-2xl"></i>
         </div>
         <div>
-          <h1 class="text-3xl font-bold text-[#303972]">Regular Class (3 months)</h1>
+          <h1 class="text-3xl font-bold text-[#303972]">Regular Class (3 Months Per Track)</h1>
           <p class="text-gray-600 mt-2">The Regular Course is designed for students with a <strong>more flexible schedule</strong> who still want to dive <strong>deep into programming</strong> through structured <strong>weekday sessions</strong>.
             Perfect for <strong>10th–11th grade students</strong> who wish to explore programming in-depth at a <strong>comfortable pace</strong>.</p>
         </div>
@@ -16,7 +16,7 @@
         <div class="bg-white p-6 rounded-lg shadow-md">
           <h2 class="text-xl font-semibold mb-4 text-[#303972]">Program Overview</h2>
           <ul class="list-disc pl-5 space-y-2 text-gray-600">
-            <li>3-month comprehensive program</li>
+            <li>3-month comprehensive program <strong>per chosen learning track</strong></li>
             <li>2 sessions per week</li>
             <li>2 hours per session</li>
             <li>Hands-on learning with practical exercises</li>
@@ -66,10 +66,10 @@
             <li><span class="font-medium text-[#4F46E5]">AI201</span> - AI Fundamentals I</li>
             <li><span class="font-medium text-[#4F46E5]">AI202</span> - AI Fundamentals II</li>
             <li><span class="font-medium text-[#4F46E5]">AI203</span> - AI Fundamentals III</li>
-            <li class="font-bold text-[#303972] mt-3">ML Fundamentals:</li>
-            <li><span class="font-medium text-[#4F46E5]">AI301</span> - ML Fundamentals I</li>
-            <li><span class="font-medium text-[#4F46E5]">AI302</span> - ML Fundamentals II</li>
-            <li><span class="font-medium text-[#4F46E5]">AI303</span> - ML Fundamentals III</li>
+            <li class="font-bold text-[#303972] mt-3">Machine Learning Fundamentals:</li>
+            <li><span class="font-medium text-[#4F46E5]">AI301</span> - Machine Learning Fundamentals I</li>
+            <li><span class="font-medium text-[#4F46E5]">AI302</span> - Machine Learning Fundamentals II</li>
+            <li><span class="font-medium text-[#4F46E5]">AI303</span> - Machine Learning Fundamentals III</li>
           </ul>
         </div>
 
@@ -91,7 +91,7 @@
           <div class="py-1"><i class="fas fa-info-circle text-blue-500 mr-2"></i></div>
           <div>
             <p class="font-bold">Important Note:</p>
-            <p class="text-sm">For the Regular Class, participants must choose and enroll in one complete "package" or track (e.g., all Programming modules, all AI modules, or all Data Science modules).</p>
+            <p class="text-sm">For the Regular Class, participants must choose and enroll in one complete "package" or track (e.g., all Programming modules, all AI modules, or all Data Science modules). Each chosen track runs for <strong>3 months</strong>.</p>
           </div>
         </div>
       </div>

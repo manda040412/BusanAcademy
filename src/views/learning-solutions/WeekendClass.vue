@@ -6,7 +6,7 @@
           <i class="fas fa-calendar-alt text-white text-2xl"></i>
         </div>
         <div>
-          <h1 class="text-3xl font-bold text-[#303972]">Weekend Class (1 month)</h1>
+          <h1 class="text-3xl font-bold text-[#303972]">Weekend Class (1-Month Fast Track)</h1>
           <p class="text-gray-600 mt-2">Designed for <strong>professionals</strong> and <strong>educators</strong> looking to explore <strong>cutting-edge technologies</strong> such as <strong>AI</strong>, <strong>Programming</strong>, and <strong>Data Science</strong> in a <strong>concise yet comprehensive format</strong>.
             Perfect for those seeking a <strong>high-impact learning experience</strong> without disrupting their weekday schedule.</p>
         </div>
@@ -16,9 +16,9 @@
         <div class="bg-white p-6 rounded-lg shadow-md">
           <h2 class="text-xl font-semibold mb-4 text-[#303972]">Program Overview</h2>
           <ul class="list-disc pl-5 space-y-2 text-gray-600">
-            <li>1-month intensive weekend program</li>
-            <li>4 weekend sessions (e.g., Saturday or Sunday)</li>
-            <li>4 hours per session (total 16 hours)</li>
+            <li>1-month fast track weekend program</li>
+            <li>4 weekend sessions (specifically on Saturdays)</li>
+            <li>2 hours per session (total 8 hours)</li>
             <li>Concise, focused learning modules</li>
             <li>Small group learning for personalized attention</li>
           </ul>
@@ -59,9 +59,9 @@
             <li class="font-bold text-[#303972]">AI Basic Modules:</li>
             <li><span class="font-medium text-[#4F46E5]">AI101</span> - AI Basic I</li>
             <li><span class="font-medium text-[#4F46E5]">AI102</span> - AI Basic II</li>
-            <li class="font-bold text-[#303972] mt-3">ML Basic Modules:</li>
-            <li><span class="font-medium text-[#4F46E5]">AI201</span> - ML Basic I</li>
-            <li><span class="font-medium text-[#4F46E5]">AI202</span> - ML Basic II</li>
+            <li class="font-bold text-[#303972] mt-3">Machine Learning Basic Modules:</li>
+            <li><span class="font-medium text-[#4F46E5]">AI201</span> - Machine Learning Basic I</li>
+            <li><span class="font-medium text-[#4F46E5]">AI202</span> - Machine Learning Basic II</li>
           </ul>
         </div>
 
